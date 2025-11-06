@@ -3,16 +3,16 @@
 3. On Control Version item (VSC) click on Download Git For Linux
 4. Follow the first step in the web: sudo apt-get install git
 5. You could (restart) the VSC and see the Control Version item
-6. Stablish the credentiasl (on your VS Code Terminal):
-        git config --global user.email "................"
-        git config --global user.name "xxxxxxxx"
-        git config --global --list
-        // don't use --global if you like the credentials only for this repository //
-7. Initialize the repository (do it first step 6 if local user)
-7. Make our "First Commit"
-8. Remote -> Add remote (copy the url of repository: hhttps://github.com/profeCarballeira/CRUD-php-pdo.git)
-                        and stablish the name: origin
-9. Push (using the menu Pull/push or directly on the blue button)
+6. Initialize the repository 
+7. Stablish the credentiasl (on your VS Code Terminal):
+        git config user.email "yyyyyyyyy"
+        git config user.name "xxxxxxxx"
+        git config --list    
+8. Make our "First Commit": git commit -m "first commit"
+9. Give name to the current branch: git branch -M main
+10. Bind the remote repository: git remote add origin https://github.com/profeCarballeira/CRUD-php-pdo.git
+11. Push to github.com: git push -u origin main
+
 
 
 
