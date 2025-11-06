@@ -1,0 +1,35 @@
+1. Create a public repository on github (i.e. CRUD-php-pdo.git)
+2. Take care of the exaples (*)
+3. On Control Version item (VSC) click on Download Git For Linux
+4. Follow the first step in the web: sudo apt-get install git
+5. You could (restart) the VSC and see the Control Version item
+6. Stablish the credentiasl (on your VS Code Terminal):
+        git config --global user.email "................"
+        git config --global user.name "xxxxxxxx"
+        git config --global --list
+        // don't use --global if you like the credentials only for this repository //
+7. Initialize the repository (do it first step 6 if local user)
+7. Make our "First Commit"
+8. Remote -> Add remote (copy the url of repository: hhttps://github.com/profeCarballeira/CRUD-php-pdo.git)
+                        and stablish the name: origin
+9. Push (using the menu Pull/push or directly on the blue button)
+
+
+
+
+
+
+
+(*)
+…or create a new repository on the command line
+echo "# CRUD-php-PDO-employees" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/profeCarballeira/CRUD-php-PDO-employees.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/profeCarballeira/CRUD-php-PDO-employees.git
+git branch -M main
+git push -u origin main

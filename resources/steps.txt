@@ -1,0 +1,9 @@
+After Following the crud app guide: https://www.tutorialrepublic.com/php-tutorial/php-mysql-crud-application.php
+1 Create a table "acconuts" in the DB with name and password fields (name is the PK)
+2 Insert a vallid user row
+3 Create the login.php with the form to validate
+4 Make a protect.php to reject the users trying to enter without login step
+5 Include the protect.php at the begining of all files (you must protect) in the CRUD app
+
+
+
